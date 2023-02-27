@@ -1,0 +1,9 @@
+$selectedBackground: #293245;
+.list-item {
+    padding: .6rem 1rem;
+    list-style: none;
+}
+
+.selected {
+    background: $selectedBackground;
+}

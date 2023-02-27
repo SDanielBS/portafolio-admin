@@ -1,0 +1,13 @@
+$selectedBackground: #293245;
+$hoverBackground: #2a3650;
+$background: #1D2638;
+
+.left-navigation-container {
+    & .list {
+        background: $background;
+        & :hover {
+            cursor: pointer;
+            background: $hoverBackground;
+        }
+    }
+}

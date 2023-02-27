@@ -1,8 +1,11 @@
+import { LeftNavBar } from "../LeftNavBar/LeftNavBar.js"
 import "./Main.scss"
 
 const Main = () => {
     return(
-        <h1>Main</h1>
+        <div className="main-container">
+            <LeftNavBar/>
+        </div>
     )
 }
 
