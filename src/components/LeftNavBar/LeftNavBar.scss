@@ -3,6 +3,7 @@ $hoverBackground: #2a3650;
 $background: #1D2638;
 
 .left-navigation-container {
+    min-width: 250px;
     & .list {
         background: $background;
         & :hover {

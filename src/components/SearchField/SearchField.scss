@@ -1,0 +1,16 @@
+ $text: #F0F0F0;
+.search {
+    & .search-input{
+        outline: none;
+        padding: .4rem .6rem;
+        font-size: 1.2rem;
+        border: 1px solid $text;
+        border-radius: .4rem;
+        background: transparent;
+        color: $text;
+
+        &::placeholder {
+            color: $text;
+        }
+    }
+}
