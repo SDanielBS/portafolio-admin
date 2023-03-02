@@ -1,11 +1,12 @@
 $text: #F0F0F0;
+$background: #1D2638;
 
 .main-container {
-    background: #293245;
+    background: $background;
     color: $text;
     max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }

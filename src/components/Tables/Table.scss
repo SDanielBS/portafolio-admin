@@ -1,0 +1,32 @@
+$bg-table: #2D3649;
+$bg-odd-rows: #2E5830;
+.table{
+    background: $bg-table;
+    border-spacing: 0;
+    width: 100%;
+    &-header{
+        &-title{
+            padding: 1.2rem 1.4rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-align: start;
+            &:nth-last-child(1){
+                text-align: center;
+            }
+        }
+    }
+
+    &-body{
+        &-row{
+            &:nth-child(odd){
+                background: $bg-odd-rows;
+            }
+        }
+
+        &-data{
+            padding: 1.2rem 1.4rem;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+    }
+}

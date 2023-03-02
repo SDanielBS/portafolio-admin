@@ -1,13 +1,20 @@
 import { PrimaryButton } from "../Buttons/Buttons"
+import { Divider } from "../Divider/Divider"
 import { SearchField } from "../SearchField/SearchField"
+import { BasicTable } from "../Tables/Tables"
 import "./Dashboard.scss"
 
 const Dashboard = () => {
     return(
         <div className="dashboard">
-            <h3>asasd</h3>
-            <SearchField/>
-            <PrimaryButton/>
+            <div className="dashboard-header">
+                <PrimaryButton/>
+                <SearchField/>
+            </div>
+            <Divider/>
+            <div className="dashboard-body">
+                <BasicTable/>
+            </div>
         </div>
     )
 }
